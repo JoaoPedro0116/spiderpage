@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    width: 100%;
+    margin-top: 40px;
+    background-color: black;
+    width: 100px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+li{
+    color: black;
+    gap: 100px;
+
+}
+
+a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+   
+    
+}
+   
+p{
+    font-size: 18px;
+    width: 90%;
+    max-width: 500px;
+    margin: 40px 0px 0px 90px;
+}
+button{
+    padding: 8px;
+    width: 20%;
+    border-radius: 3px;
+    margin: 20px -100px 10px 160px;
+
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+
+    transform: skew(-15deg);
+
+    background-color: black;
+    border: solid 1px red;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+    max-width: 1440px;
+
+    margin-top: 10em;
+}
+.info{
+    margin: 20px;
+}
+#title-spider{
+    margin-left: 150px;
+}
+#spiderimg{
+    margin-right: 200px;
+}

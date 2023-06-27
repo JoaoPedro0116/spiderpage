@@ -11,7 +11,6 @@ body{
 }
 header{
     width: 100%;
-    height: 100%;
     inset: 0;
     position: fixed;
 }
@@ -134,4 +133,64 @@ main{
 h1{
     font-family: 'Josefin Sans', sans-serif;
     margin-left: 200px;
+}
+
+
+/* media queury */
+@media (max-width: 600px)
+{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 60px;
+        
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 10px;
+    }
+      button{
+        background-color: black;
+        border: solid 1px black;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+    
+      }         
+            p{
+                font-size: 15px;
+                width: 80%;
+                min-width: 200px;
+                max-width: 490px;
+                margin: 10px 0px 0px 90px;
+                font-family: 'Josefin Sans', sans-serif;
+            }
+          
+            main{
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: center;
+             align-items: center;
+             margin: 50px 50px 0px -25px;
+
+            }
+            .info{
+                margin: 160px 10px;
+            }
+            #title-spider{
+                margin-left: 150px;
+            }
+            #spiderimg{
+              display: none;
+            }
+            h1{
+                font-family: 'Josefin Sans', sans-serif;
+                text-align: left;
+                font-size: 2em;
+            }
+       
 }

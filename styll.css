@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;0,700;1,700&display=swap');
+@import url(sobre.css);
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    width: 100%;
+    inset: 0;
+    position: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 120px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.icons{
+position: relative;
+
+    margin:0px;
+    margin-left: 400px;
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+#icon-spider{
+    margin-right: 20px;
+}
+li{
+
+ row-gap: 20px;
+
+}
+
+a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+    text-decoration: none;
+   
+    
+}
+   
+p{
+    font-size: 15px;
+    width: 80%;
+    max-width: 490px;
+    margin: 10px 0px 0px 90px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.filme{
+    padding: 8px;
+    width: 20%;
+    border-radius: 3px;
+    margin: 20px -100px 10px 160px;
+
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+
+    transform: skew(-15deg);
+
+   background-color: rgb(255, 255, 255);
+   color: black;
+   border: solid 1px red;
+
+}
+button{
+    padding: 10px;
+    width: 30%;
+    border-radius: 3px;
+    margin: 20px -100px 10px 160px;
+
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+
+    transform: skew(-10deg);
+
+    background-color: black;
+    border: solid 1px red;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+   
+   
+}
+main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+    max-width: 1440px;
+
+    margin-top: 10em;
+}
+.info{
+    margin: 160px 10px;
+}
+#title-spider{
+    margin-left: 150px;
+}
+#spiderimg{
+    position: relative;
+    margin-right: 300px;
+    margin-top: -280px;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 200px;
+}
+
+section{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
+    min-height: 600px;
+}
+
+
+/* media queury */
+@media (max-width: 600px)
+{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 20%;
+        
+        font-family: 'Josefin Sans', sans-serif;
+    }
+   
+    ul{
+        display: flex;
+        list-style: none;
+
+        gap: 10px;
+    }
+      button{
+        background-color: black;
+        border: solid 1px black;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        margin-left: 27%;
+
+        background-color: black;
+        border: solid 2px red;
+
+    
+      }  
+      a{
+        font-size: 14px;
+      }       
+            p{
+                font-size: 15px;
+                width: 80%;
+                min-width: 100px;
+                font-family: 'Josefin Sans', sans-serif;
+            }
+          
+            main{
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: center;
+             align-items: center;
+             margin-top: 20px;
+             margin-left: -45px;
+
+            }
+            nav{
+                margin-left: 12%;
+            }
+            .info{
+               
+            }
+            #title-spider{
+               
+            }
+            #spiderimg{
+              display: none;
+            }
+            h1{
+                font-family: 'Josefin Sans', sans-serif;
+                text-align: center;
+                margin: 0px;
+                margin-left: -14%;
+
+                font-size: 1.4em;
+            }
+            p{
+                text-align: justify;
+            }
+        section{
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            height: 100%;
+            min-width: 300px;
+            min-height: 500px;
+        }
+        
+
+       
+}
+/* new */
+@media (max-width: 320px)
+{
+    nav{
+        margin-left: 40px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    nav ul li a{
+        font-size: 1em;
+        margin-right: auto;
+    }
+    #icon-spider{
+        width:100%;
+        min-width: 35px;
+        
+    }
+    button{
+        padding: 5px;
+        font-size: 0.9em;
+        background-color: black;
+        border: solid 1px black;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        margin-left: 34%;
+
+        background-color: black;
+        border: solid 2px red;
+
+    
+      } 
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: -50px;
+
+       }
+       main h1{
+        text-align: center;
+        margin-left: 80px;
+       }
+}
